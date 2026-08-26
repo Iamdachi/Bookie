@@ -1,7 +1,7 @@
 ### 0. Containerization and Testing  
-TODO: Docker set-up  
-TODO: Postman set-up for testing  
-TODO: Burp Suite for advanced Security stuff testing.  
+📌TODO: Docker set-up  
+📌TODO: Postman set-up for testing  
+📌TODO: Burp Suite for advanced Security stuff testing.  
 
 ### 1. User & Account Management  
 
@@ -14,8 +14,11 @@ Wallet/balance per user.
 
 Sports → Leagues → Events → Markets → Selections hierarchy.
 Event status lifecycle: scheduled → live → suspended → settled → cancelled.
+📌TODO: Create Entities and Enums for Matches, Odds, Countries...
+📌TODO: Set up Database
 Integration with a sports data/odds feed provider (or manual admin entry for MVP).
-TODO: Create Entities and Enums for Matches, Odds, Countries...
+📌TODO: Find what feeds can I integrate for free and how
+
 
 ### 3. Odds & Markets
 
@@ -23,6 +26,8 @@ Market types (match winner, over/under, handicap, etc.).
 Odds storage with format support (decimal/fractional/American).
 Odds history/versioning (odds change over time — important for auditing).
 Ability to suspend/update odds in real time (especially for live betting).
+📌TODO: Create CRUD controllers and services for the data
+
 
 ### 4. Bet Placement
 
