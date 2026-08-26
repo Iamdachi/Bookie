@@ -12,12 +12,12 @@ Wallet/balance per user.
 
 ### 2. Sports & Events Data
 
-Sports → Leagues → Events → Markets → Selections hierarchy.
-Event status lifecycle: scheduled → live → suspended → settled → cancelled.
-📌TODO: Create Entities and Enums for Matches, Odds, Countries...
-📌TODO: Set up Database
-Integration with a sports data/odds feed provider (or manual admin entry for MVP).
-📌TODO: Find what feeds can I integrate for free and how
+Sports → Leagues → Events → Markets → Selections hierarchy.  
+Event status lifecycle: scheduled → live → suspended → settled → cancelled.  
+📌TODO: Create Entities and Enums for Matches, Odds, Countries...  
+📌TODO: Set up Database  
+Integration with a sports data/odds feed provider (or manual admin entry for MVP).  
+📌TODO: Find what feeds can I integrate for free and how  
 
 
 ### 3. Odds & Markets
@@ -25,8 +25,8 @@ Integration with a sports data/odds feed provider (or manual admin entry for MVP
 Market types (match winner, over/under, handicap, etc.).
 Odds storage with format support (decimal/fractional/American).
 Odds history/versioning (odds change over time — important for auditing).
-Ability to suspend/update odds in real time (especially for live betting).
-📌TODO: Create CRUD controllers and services for the data
+Ability to suspend/update odds in real time (especially for live betting).  
+📌TODO: Create CRUD controllers and services for the data  
 
 
 ### 4. Bet Placement
