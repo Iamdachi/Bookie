@@ -5,5 +5,5 @@ import jakarta.validation.constraints.NotBlank;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface LeagueRepository extends JpaRepository<League, Long> {
-    boolean existsByCountryAndSportIdAndName(Long countryId, Long sportId, @NotBlank(message = "Name cannot be blank") String name);
+    boolean existsByCountryIdAndSportIdAndName(Long countryId, Long sportId, @NotBlank(message = "Name cannot be blank") String name);
 }
